@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+sheets/credentials.json
+sheets/config.js
+token.json
+src/data/podcasts.json
