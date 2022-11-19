@@ -5,7 +5,7 @@ import data from './data/podcasts.json'
 function App() {
   return (
     <div className="App">
-      <PodcastList data={data} />
+      <PodcastList podcasts={data} />
     </div>
   );
 }

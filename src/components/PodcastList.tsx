@@ -1,20 +1,14 @@
 import React from 'react';
+import PodcastCard from './PodcastCard';
 
-interface Podcast {
-  Date: string;
-  Podcast: string;
-  Title: string;
-  Links: string;
-}
+import { Podcast } from '../types';
 
-function PodcastList({ data }: any) {
-  return (<>{
-    data.map((podcast: Podcast) => (
-      <div key={podcast.Title}>{
-        JSON.stringify(podcast)
-      }</div>
+function PodcastList({ podcasts }: { podcasts: Podcast[] }) {
+  return (<ul>{
+    podcasts.map((podcast: Podcast) => (
+      <PodcastCard podcast={podcast} key={`${podcast.Podcast}-${podcast.Title}`} />
     ))
-  }</>);
+  }</ul>);
 }
 
 export default PodcastList;
