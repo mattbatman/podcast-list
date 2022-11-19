@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Undo List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* PodcastCard */
+li {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  line-height: 1.2;
+}
+
+.podcast {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.date {
+  font-size: 0.875rem;
+}

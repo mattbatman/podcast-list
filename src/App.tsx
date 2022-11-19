@@ -4,7 +4,8 @@ import data from './data/podcasts.json';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
+      <h1>Podcast List</h1>
       <PodcastList podcasts={data} />
     </div>
   );

@@ -7,9 +7,11 @@ function PodcastCard({ podcast }: { podcast: Podcast }) {
 
   return (
     <li>
-      <a href={Links}>
-        {Title} | {Podcast} | {Date}
-      </a>
+      <h3>
+        <a href={Links}>{Title}</a>
+      </h3>
+      <div className="podcast">{Podcast}</div>
+      <div className="date">{Date}</div>
     </li>
   );
 }
