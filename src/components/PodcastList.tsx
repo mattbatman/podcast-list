@@ -4,11 +4,16 @@ import PodcastCard from './PodcastCard';
 import { Podcast } from '../types';
 
 function PodcastList({ podcasts }: { podcasts: Podcast[] }) {
-  return (<ul>{
-    podcasts.map((podcast: Podcast) => (
-      <PodcastCard podcast={podcast} key={`${podcast.Podcast}-${podcast.Title}`} />
-    ))
-  }</ul>);
+  return (
+    <ul>
+      {podcasts.map((podcast: Podcast) => (
+        <PodcastCard
+          podcast={podcast}
+          key={`${podcast.Podcast}-${podcast.Title}`}
+        />
+      ))}
+    </ul>
+  );
 }
 
 export default PodcastList;

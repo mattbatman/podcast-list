@@ -10,7 +10,8 @@ function PodcastCard({ podcast }: { podcast: Podcast }) {
       <a href={Links}>
         {Title} | {Podcast} | {Date}
       </a>
-    </li>);
+    </li>
+  );
 }
 
 export default PodcastCard;
