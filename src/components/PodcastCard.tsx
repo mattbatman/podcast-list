@@ -1,4 +1,5 @@
 import React from 'react';
+import { formatDate } from '../utility/dates';
 
 import { Podcast } from '../types';
 
@@ -11,7 +12,7 @@ function PodcastCard({ podcast }: { podcast: Podcast }) {
         <a href={Links}>{Title}</a>
       </h3>
       <div className="podcast">{Podcast}</div>
-      <div className="date">{Date}</div>
+      <div className="date">{formatDate(Date)}</div>
     </li>
   );
 }
