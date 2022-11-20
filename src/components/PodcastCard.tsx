@@ -7,7 +7,7 @@ function PodcastCard({ podcast }: { podcast: Podcast }) {
   const { Date, Podcast, Title, Links } = podcast;
 
   return (
-    <li>
+    <li className="PodcastCard">
       <h3>
         <a href={Links}>{Title}</a>
       </h3>

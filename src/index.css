@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+:root {
+  --blue: rgba(0, 0, 238);
+}
+
 .container {
   width: 100%;
   max-width: 100vw;
@@ -32,13 +36,28 @@ ul {
   margin: 0;
 }
 
+/* button */
+button {
+  background-color: transparent;
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  color: var(--blue);
+  font-weight: bold;
+  padding: 0.333rem 0.5rem;
+}
+
+button.selected {
+  background-color: var(--blue);
+  color: #fff;
+}
+
 /* Links */
 a {
   text-decoration: none;
 }
 
 /* PodcastCard */
-li {
+.PodcastCard {
   margin-bottom: 2rem;
 }
 
@@ -55,4 +74,14 @@ h3 {
 
 .date {
   font-size: 0.875rem;
+}
+
+/* ShowFilter */
+
+.ShowFilter {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 7px 7px;
+  flex-flow: wrap;
 }
