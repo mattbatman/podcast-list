@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from './Button';
 
 import { Podcast } from '../types';
 
-function ShowFilter({ podcasts }: { podcasts: Podcast[] }) {
+function ShowFilter({
+  podcasts,
+  includedShows,
+  handleShowClick
+}: {
+  podcasts: Podcast[];
+  includedShows: string[];
+  handleShowClick: (showTitle: string) => void;
+}) {
   const uniqueShows = podcasts
     .map(function ({ Podcast }) {
       return Podcast;
@@ -13,13 +21,23 @@ function ShowFilter({ podcasts }: { podcasts: Podcast[] }) {
     });
 
   return (
-    <ul className="ShowFilter">
-      {uniqueShows.map((show) => (
-        <li key={show}>
-          <Button showTitle={show} />
-        </li>
-      ))}
-    </ul>
+    <>
+      <ul className="ShowFilter">
+        {uniqueShows.map((show) => {
+          const isSelected = includedShows.indexOf(show) > -1;
+
+          return (
+            <li key={show}>
+              <Button
+                showTitle={show}
+                handleClick={handleShowClick}
+                isSelected={isSelected}
+              />
+            </li>
+          );
+        })}
+      </ul>
+    </>
   );
 }
 
