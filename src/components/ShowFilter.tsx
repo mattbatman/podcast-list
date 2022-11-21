@@ -21,23 +21,21 @@ function ShowFilter({
     });
 
   return (
-    <>
-      <ul className="ShowFilter">
-        {uniqueShows.map((show) => {
-          const isSelected = includedShows.indexOf(show) > -1;
+    <ul className="ShowFilter">
+      {uniqueShows.map((show) => {
+        const isSelected = includedShows.indexOf(show) > -1;
 
-          return (
-            <li key={show}>
-              <Button
-                showTitle={show}
-                handleClick={handleShowClick}
-                isSelected={isSelected}
-              />
-            </li>
-          );
-        })}
-      </ul>
-    </>
+        return (
+          <li key={show}>
+            <Button
+              showTitle={show}
+              handleClick={handleShowClick}
+              isSelected={isSelected}
+            />
+          </li>
+        );
+      })}
+    </ul>
   );
 }
 
