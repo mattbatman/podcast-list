@@ -1,12 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Button({ showTitle }: { showTitle: string }) {
-  const [isClicked, setIsClicked] = useState(false);
-
+function Button({
+  showTitle,
+  handleClick,
+  isSelected
+}: {
+  showTitle: string;
+  handleClick: (showTitle: string) => void;
+  isSelected: boolean;
+}) {
   return (
     <button
-      className={isClicked ? 'selected' : ''}
-      onClick={() => setIsClicked(!isClicked)}
+      className={isSelected ? 'selected' : ''}
+      onClick={() => {
+        handleClick(showTitle);
+      }}
     >
       {showTitle}
     </button>
