@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--black);
 }
 
 code {
@@ -17,7 +18,8 @@ code {
 }
 
 :root {
-  --blue: rgba(0, 0, 238);
+  --blue: #22798d;
+  --black: rgb(25, 28, 28);
 }
 
 .container {
@@ -53,6 +55,7 @@ button.selected {
 
 /* Links */
 a {
+  color: var(--blue);
   text-decoration: none;
 }
 
