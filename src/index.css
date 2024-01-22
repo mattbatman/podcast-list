@@ -82,11 +82,14 @@ h3 {
 /* ShowFilter */
 
 .ShowFilter {
-  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: row;
   gap: 7px 7px;
   flex-flow: wrap;
+}
+
+.PodcastList {
+  margin-top: 1.5rem;
 }
 
 /* 
@@ -113,7 +116,7 @@ input#podcast-filters {
   transition: all 0.35s;
 }
 
-input:checked~.accordion-content {
+input:checked ~ .accordion-content {
   max-height: 100vh;
 }
 
@@ -149,7 +152,7 @@ i {
 
 i:before,
 i:after {
-  content: "";
+  content: '';
   position: absolute;
   background-color: #ff6873;
   width: 3px;
@@ -164,11 +167,11 @@ i:after {
   transform: translate(2px, 0) rotate(-45deg);
 }
 
-input[type=checkbox]:checked ~ i:before {
+input[type='checkbox']:checked ~ i:before {
   transform: translate(2px, 0) rotate(45deg);
 }
 
-input[type=checkbox]:checked ~ i:after {
+input[type='checkbox']:checked ~ i:after {
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
