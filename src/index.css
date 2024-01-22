@@ -89,7 +89,10 @@ h3 {
   flex-flow: wrap;
 }
 
-/* Checkbox */
+/* 
+Checkbox 
+taken from https: //dev.to/sababg/css-only-accordion-59db
+*/
 
 .accordion {
   overflow: hidden;
@@ -121,4 +124,79 @@ label {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+}
+
+/*
+icon styles taken from https: //codepen.io/alvarotrigo/pen/qBpBezx?editors=1100
+*/
+
+.transition,
+i:before,
+i:after {
+  transition: all 0.25s ease-in-out;
+}
+
+.flipIn {
+  animation: flipdown 0.5s ease both;
+}
+
+i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 0;
+}
+
+i:before,
+i:after {
+  content: "";
+  position: absolute;
+  background-color: #ff6873;
+  width: 3px;
+  height: 9px;
+}
+
+i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+
+i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+
+input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+@keyframes flipdown {
+  0% {
+    opacity: 0;
+    transform-origin: top center;
+    transform: rotateX(-90deg);
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  80% {
+    transform: rotateX(8deg);
+  }
+
+  83% {
+    transform: rotateX(6deg);
+  }
+
+  92% {
+    transform: rotateX(-3deg);
+  }
+
+  100% {
+    transform-origin: top center;
+    transform: rotateX(0deg);
+  }
 }

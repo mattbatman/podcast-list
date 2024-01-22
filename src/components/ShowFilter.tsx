@@ -22,8 +22,8 @@ function ShowFilter({
 
   return (
     <div className="accordion">
-      <i></i>
       <input type="checkbox" id="podcast-filters" />
+      <i></i>
       <label className="accordion-label" htmlFor="podcast-filters">
         Podcasts
       </label>
