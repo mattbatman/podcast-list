@@ -154,7 +154,7 @@ i:before,
 i:after {
   content: '';
   position: absolute;
-  background-color: #ff6873;
+  background-color: var(--blue);
   width: 3px;
   height: 9px;
 }
