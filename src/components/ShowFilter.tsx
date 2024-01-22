@@ -21,21 +21,30 @@ function ShowFilter({
     });
 
   return (
-    <ul className="ShowFilter">
-      {uniqueShows.map((show) => {
-        const isSelected = includedShows.indexOf(show) > -1;
+    <div className="accordion">
+      <i></i>
+      <input type="checkbox" id="podcast-filters" />
+      <label className="accordion-label" htmlFor="podcast-filters">
+        Podcasts
+      </label>
+      <div className="accordion-content">
+        <ul className="ShowFilter">
+          {uniqueShows.map((show) => {
+            const isSelected = includedShows.indexOf(show) > -1;
 
-        return (
-          <li key={show}>
-            <Button
-              showTitle={show}
-              handleClick={handleShowClick}
-              isSelected={isSelected}
-            />
-          </li>
-        );
-      })}
-    </ul>
+            return (
+              <li key={show}>
+                <Button
+                  showTitle={show}
+                  handleClick={handleShowClick}
+                  isSelected={isSelected}
+                />
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
   );
 }
 
