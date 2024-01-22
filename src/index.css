@@ -88,3 +88,37 @@ h3 {
   gap: 7px 7px;
   flex-flow: wrap;
 }
+
+/* Checkbox */
+
+.accordion {
+  overflow: hidden;
+}
+
+input#podcast-filters {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.accordion-label {
+  cursor: pointer;
+}
+
+.accordion-content {
+  max-height: 0;
+  transition: all 0.35s;
+}
+
+input:checked~.accordion-content {
+  max-height: 100vh;
+}
+
+label {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
