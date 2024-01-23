@@ -117,7 +117,7 @@ input#podcast-filters {
 }
 
 .accordion-label-container:has(input:checked) ~ .accordion-content {
-  max-height: 100vh;
+  max-height: none;
 }
 
 .accordion-label-container {
