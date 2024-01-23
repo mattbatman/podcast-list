@@ -22,11 +22,13 @@ function ShowFilter({
 
   return (
     <div className="accordion">
-      <input type="checkbox" id="podcast-filters" />
-      <i></i>
-      <label className="accordion-label" htmlFor="podcast-filters">
-        Podcasts
-      </label>
+      <div className="accordion-label-container">
+        <input type="checkbox" id="podcast-filters" />
+        <label className="accordion-label" htmlFor="podcast-filters">
+          Podcasts
+        </label>
+        <i></i>
+      </div>
       <div className="accordion-content">
         <ul className="ShowFilter">
           {uniqueShows.map((show) => {

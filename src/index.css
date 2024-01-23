@@ -116,8 +116,15 @@ input#podcast-filters {
   transition: all 0.35s;
 }
 
-input:checked ~ .accordion-content {
+.accordion-label-container:has(input:checked) ~ .accordion-content {
   max-height: 100vh;
+}
+
+.accordion-label-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 label {
@@ -144,10 +151,10 @@ i:after {
 }
 
 i {
-  position: absolute;
-  transform: translate(-6px, 0);
-  margin-top: 16px;
-  right: 0;
+  display: inline-block;
+  height: 9px;
+  width: 3px;
+  margin-left: 0.75rem;
 }
 
 i:before,
