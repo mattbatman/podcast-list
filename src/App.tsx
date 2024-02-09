@@ -1,9 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import PodcastList from './components/PodcastList';
 import ShowFilter from './components/ShowFilter';
-import data from './data/podcasts.json';
+import rawData from './data/podcasts.json';
 
 import { Podcast } from './types';
+
+const data: Podcast[] = rawData
+  .map(function (datum) {
+    return {
+      ...datum,
+      InterpretedDate: new Date(datum.Date)
+    };
+  })
+  .sort(function (a, b) {
+    return b.InterpretedDate.getTime() - a.InterpretedDate.getTime();
+  });
 
 function App() {
   const [includedShows, setIncludedShows] = useState<string[]>([]);
