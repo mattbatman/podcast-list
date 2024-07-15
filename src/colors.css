@@ -1,0 +1,17 @@
+:root {
+  --the-tom-woods-show: #1c9bc7;
+}
+
+.the-tom-woods-show a {
+  color: var(--the-tom-woods-show);
+}
+
+button.the-tom-woods-show {
+  color: var(--the-tom-woods-show);
+  border: 2px solid var(--the-tom-woods-show);
+}
+
+button.selected.the-tom-woods-show {
+  background-color: var(--the-tom-woods-show);
+  color: #fff;
+}

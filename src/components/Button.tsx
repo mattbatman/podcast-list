@@ -3,15 +3,17 @@ import React from 'react';
 function Button({
   showTitle,
   handleClick,
-  isSelected
+  isSelected,
+  podcastClass
 }: {
   showTitle: string;
   handleClick: (showTitle: string) => void;
   isSelected: boolean;
+  podcastClass: string;
 }) {
   return (
     <button
-      className={isSelected ? 'selected' : ''}
+      className={isSelected ? `${podcastClass} selected` : `${podcastClass}`}
       onClick={() => {
         handleClick(showTitle);
       }}

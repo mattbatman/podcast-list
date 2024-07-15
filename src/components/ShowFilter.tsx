@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import { getPodcastKey } from '../utility/podcast-key';
 
 import { Podcast } from '../types';
 
@@ -40,6 +41,7 @@ function ShowFilter({
                   showTitle={show}
                   handleClick={handleShowClick}
                   isSelected={isSelected}
+                  podcastClass={getPodcastKey(show)}
                 />
               </li>
             );
