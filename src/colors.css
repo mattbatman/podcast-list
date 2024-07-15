@@ -1,5 +1,6 @@
 :root {
   --the-tom-woods-show: #1c9bc7;
+  --tucker-carlson: #b91414;
 }
 
 .the-tom-woods-show a {
@@ -13,5 +14,19 @@ button.the-tom-woods-show {
 
 button.selected.the-tom-woods-show {
   background-color: var(--the-tom-woods-show);
+  color: #fff;
+}
+
+.tucker-carlson a {
+  color: var(--tucker-carlson);
+}
+
+button.tucker-carlson {
+  color: var(--tucker-carlson);
+  border: 2px solid var(--tucker-carlson);
+}
+
+button.selected.tucker-carlson {
+  background-color: var(--tucker-carlson);
   color: #fff;
 }
