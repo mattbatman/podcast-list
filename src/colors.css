@@ -1,6 +1,7 @@
 :root {
   --the-tom-woods-show: #1c9bc7;
   --tucker-carlson: #b91414;
+  --the-art-of-manliness-podcast: #901f00;
 }
 
 .the-tom-woods-show a {
@@ -28,5 +29,19 @@ button.tucker-carlson {
 
 button.selected.tucker-carlson {
   background-color: var(--tucker-carlson);
+  color: #fff;
+}
+
+.the-art-of-manliness-podcast a {
+  color: var(--the-art-of-manliness-podcast);
+}
+
+button.the-art-of-manliness-podcast {
+  color: var(--the-art-of-manliness-podcast);
+  border: 2px solid var(--the-art-of-manliness-podcast);
+}
+
+button.selected.the-art-of-manliness-podcast {
+  background-color: var(--the-art-of-manliness-podcast);
   color: #fff;
 }
