@@ -2,6 +2,7 @@
   --the-tom-woods-show: #1c9bc7;
   --tucker-carlson: #b91414;
   --the-art-of-manliness-podcast: #901f00;
+  --the-joe-rogan-experience: #EF5E22;
 }
 
 .the-tom-woods-show a {
@@ -43,5 +44,19 @@ button.the-art-of-manliness-podcast {
 
 button.selected.the-art-of-manliness-podcast {
   background-color: var(--the-art-of-manliness-podcast);
+  color: #fff;
+}
+
+.the-joe-rogan-experience a {
+  color: var(--the-joe-rogan-experience);
+}
+
+button.the-joe-rogan-experience {
+  color: var(--the-joe-rogan-experience);
+  border: 2px solid var(--the-joe-rogan-experience);
+}
+
+button.selected.the-joe-rogan-experience {
+  background-color: var(--the-joe-rogan-experience);
   color: #fff;
 }
