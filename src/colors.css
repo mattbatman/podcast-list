@@ -3,6 +3,7 @@
   --tucker-carlson: #b91414;
   --the-art-of-manliness-podcast: #901f00;
   --the-joe-rogan-experience: #EF5E22;
+  --tin-foil-hat-with-sam-tripoli: #000000;
 }
 
 .the-tom-woods-show a {
@@ -58,5 +59,19 @@ button.the-joe-rogan-experience {
 
 button.selected.the-joe-rogan-experience {
   background-color: var(--the-joe-rogan-experience);
+  color: #fff;
+}
+
+.tin-foil-hat-with-sam-tripoli a {
+  color: var(--tin-foil-hat-with-sam-tripoli);
+}
+
+button.tin-foil-hat-with-sam-tripoli {
+  color: var(--tin-foil-hat-with-sam-tripoli);
+  border: 2px solid var(--tin-foil-hat-with-sam-tripoli);
+}
+
+button.selected.tin-foil-hat-with-sam-tripoli {
+  background-color: var(--tin-foil-hat-with-sam-tripoli);
   color: #fff;
 }
