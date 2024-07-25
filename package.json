@@ -28,7 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "fetch-podcasts": "node sheets/index.js",
-    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css}'"
+    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css}'",
+    "remove-token": "rm sheets/token.json"
   },
   "eslintConfig": {
     "extends": [
