@@ -1,5 +1,8 @@
 function getPodcastKey(podcast: string) {
-  return podcast.replace(/\s+/g, '-').toLowerCase();
+  const lowered = podcast.replace(/\s+/g, '-').toLowerCase();
+  const noPeriod = lowered.split('.').join('');
+
+  return noPeriod;
 }
 
 export { getPodcastKey };
