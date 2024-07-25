@@ -6,6 +6,7 @@
   --tin-foil-hat-with-sam-tripoli: #000000;
   --the-bob-murphy-show: #e336d8;
   --pbd-podcast: #ea2127;
+  --rfk-jr-podcast: #2b2c78;
 }
 
 .the-tom-woods-show a {
@@ -102,5 +103,19 @@ button.pbd-podcast {
 
 button.selected.pbd-podcast {
   background-color: var(--pbd-podcast);
+  color: #fff;
+}
+
+.rfk-jr-podcast a {
+  color: var(--rfk-jr-podcast);
+}
+
+button.rfk-jr-podcast {
+  color: var(--rfk-jr-podcast);
+  border: 2px solid var(--rfk-jr-podcast);
+}
+
+button.selected.rfk-jr-podcast {
+  background-color: var(--rfk-jr-podcast);
   color: #fff;
 }
