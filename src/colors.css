@@ -7,6 +7,7 @@
   --the-bob-murphy-show: #e336d8;
   --pbd-podcast: #ea2127;
   --rfk-jr-podcast: #2b2c78;
+  --the-martyr-made-podcast: rgb(196, 52, 50);
 }
 
 .the-tom-woods-show a {
@@ -117,5 +118,19 @@ button.rfk-jr-podcast {
 
 button.selected.rfk-jr-podcast {
   background-color: var(--rfk-jr-podcast);
+  color: #fff;
+}
+
+.the-martyr-made-podcast a {
+  color: var(--the-martyr-made-podcast);
+}
+
+button.the-martyr-made-podcast {
+  color: var(--the-martyr-made-podcast);
+  border: 2px solid var(--the-martyr-made-podcast);
+}
+
+button.selected.the-martyr-made-podcast {
+  background-color: var(--the-martyr-made-podcast);
   color: #fff;
 }
