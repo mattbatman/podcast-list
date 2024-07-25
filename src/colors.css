@@ -2,8 +2,9 @@
   --the-tom-woods-show: #1c9bc7;
   --tucker-carlson: #b91414;
   --the-art-of-manliness-podcast: #901f00;
-  --the-joe-rogan-experience: #EF5E22;
+  --the-joe-rogan-experience: #ef5e22;
   --tin-foil-hat-with-sam-tripoli: #000000;
+  --the-bob-murphy-show: #e336d8;
 }
 
 .the-tom-woods-show a {
@@ -73,5 +74,19 @@ button.tin-foil-hat-with-sam-tripoli {
 
 button.selected.tin-foil-hat-with-sam-tripoli {
   background-color: var(--tin-foil-hat-with-sam-tripoli);
+  color: #fff;
+}
+
+.the-bob-murphy-show a {
+  color: var(--the-bob-murphy-show);
+}
+
+button.the-bob-murphy-show {
+  color: var(--the-bob-murphy-show);
+  border: 2px solid var(--the-bob-murphy-show);
+}
+
+button.selected.the-bob-murphy-show {
+  background-color: var(--the-bob-murphy-show);
   color: #fff;
 }
