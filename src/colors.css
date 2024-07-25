@@ -5,6 +5,7 @@
   --the-joe-rogan-experience: #ef5e22;
   --tin-foil-hat-with-sam-tripoli: #000000;
   --the-bob-murphy-show: #e336d8;
+  --pbd-podcast: #ea2127;
 }
 
 .the-tom-woods-show a {
@@ -88,5 +89,18 @@ button.the-bob-murphy-show {
 
 button.selected.the-bob-murphy-show {
   background-color: var(--the-bob-murphy-show);
+}
+
+.pbd-podcast a {
+  color: var(--pbd-podcast);
+}
+
+button.pbd-podcast {
+  color: var(--pbd-podcast);
+  border: 2px solid var(--pbd-podcast);
+}
+
+button.selected.pbd-podcast {
+  background-color: var(--pbd-podcast);
   color: #fff;
 }
