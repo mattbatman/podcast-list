@@ -55,13 +55,22 @@ button.selected {
 
 /* Links */
 a {
-  color: var(--blue);
   text-decoration: none;
 }
 
+a, a:visited, a:active {
+  color: white;
+}
+
 /* PodcastCard */
+
 .PodcastCard {
-  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.PodcastCard .podcast {
+  font-weight: bold;
 }
 
 h3 {

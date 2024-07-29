@@ -11,8 +11,13 @@
   --jocko-podcast: #55d737;
 }
 
-.the-tom-woods-show a {
-  color: var(--the-tom-woods-show);
+.PodcastCard {
+  color: white;
+  background-color: var(--blue);
+}
+
+.the-tom-woods-show.PodcastCard {
+  background-color: var(--the-tom-woods-show);
 }
 
 button.the-tom-woods-show {
@@ -25,8 +30,8 @@ button.selected.the-tom-woods-show {
   color: #fff;
 }
 
-.tucker-carlson a {
-  color: var(--tucker-carlson);
+.tucker-carlson.PodcastCard {
+  background-color: var(--tucker-carlson);
 }
 
 button.tucker-carlson {
@@ -39,8 +44,8 @@ button.selected.tucker-carlson {
   color: #fff;
 }
 
-.the-art-of-manliness-podcast a {
-  color: var(--the-art-of-manliness-podcast);
+.the-art-of-manliness-podcast.PodcastCard {
+  background-color: var(--the-art-of-manliness-podcast);
 }
 
 button.the-art-of-manliness-podcast {
@@ -53,8 +58,8 @@ button.selected.the-art-of-manliness-podcast {
   color: #fff;
 }
 
-.the-joe-rogan-experience a {
-  color: var(--the-joe-rogan-experience);
+.the-joe-rogan-experience.PodcastCard {
+  background-color: var(--the-joe-rogan-experience);
 }
 
 button.the-joe-rogan-experience {
@@ -67,8 +72,8 @@ button.selected.the-joe-rogan-experience {
   color: #fff;
 }
 
-.tin-foil-hat-with-sam-tripoli a {
-  color: var(--tin-foil-hat-with-sam-tripoli);
+.tin-foil-hat-with-sam-tripoli.PodcastCard {
+  background-color: var(--tin-foil-hat-with-sam-tripoli);
 }
 
 button.tin-foil-hat-with-sam-tripoli {
@@ -81,8 +86,8 @@ button.selected.tin-foil-hat-with-sam-tripoli {
   color: #fff;
 }
 
-.the-bob-murphy-show a {
-  color: var(--the-bob-murphy-show);
+.the-bob-murphy-show.PodcastCard {
+  background-color: var(--the-bob-murphy-show);
 }
 
 button.the-bob-murphy-show {
@@ -94,8 +99,8 @@ button.selected.the-bob-murphy-show {
   background-color: var(--the-bob-murphy-show);
 }
 
-.pbd-podcast a {
-  color: var(--pbd-podcast);
+.pbd-podcast.PodcastCard {
+  background-color: var(--pbd-podcast);
 }
 
 button.pbd-podcast {
@@ -108,8 +113,8 @@ button.selected.pbd-podcast {
   color: #fff;
 }
 
-.rfk-jr-podcast a {
-  color: var(--rfk-jr-podcast);
+.rfk-jr-podcast.PodcastCard {
+  background-color: var(--rfk-jr-podcast);
 }
 
 button.rfk-jr-podcast {
@@ -122,8 +127,8 @@ button.selected.rfk-jr-podcast {
   color: #fff;
 }
 
-.the-martyr-made-podcast a {
-  color: var(--the-martyr-made-podcast);
+.the-martyr-made-podcast.PodcastCard {
+  background-color: var(--the-martyr-made-podcast);
 }
 
 button.the-martyr-made-podcast {
@@ -136,8 +141,8 @@ button.selected.the-martyr-made-podcast {
   color: #fff;
 }
 
-.jocko-podcast a {
-  color: var(--jocko-podcast);
+.jocko-podcast.PodcastCard {
+  background-color: var(--jocko-podcast);
 }
 
 button.jocko-podcast {
