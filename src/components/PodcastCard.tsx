@@ -14,8 +14,10 @@ function PodcastCard({ podcast }: { podcast: Podcast }) {
       <h3>
         <a href={Links}>{Title}</a>
       </h3>
-      <div className="podcast">{Podcast}</div>
-      <div className="date">{formatDate(Date)}</div>
+      <div>
+        <div className="date">{formatDate(Date)}</div>
+        <div className="podcast">{Podcast}</div>
+      </div>
     </li>
   );
 }
