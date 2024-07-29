@@ -90,7 +90,6 @@ h3 {
 
 .PodcastList {
   margin-top: 1.5rem;
-  max-width: 700px;
 }
 
 /* 
@@ -212,4 +211,10 @@ input[type='checkbox']:checked ~ i:after {
     transform-origin: top center;
     transform: rotateX(0deg);
   }
+}
+
+.PodcastList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
 }
