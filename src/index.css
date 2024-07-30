@@ -58,7 +58,9 @@ a {
   text-decoration: none;
 }
 
-a, a:visited, a:active {
+a,
+a:visited,
+a:active {
   color: white;
 }
 
@@ -85,6 +87,10 @@ h3 {
 .podcast {
   font-size: 1rem;
   margin-bottom: 0.3rem;
+}
+
+.PodcastCard .podcast {
+  opacity: 0.8;
 }
 
 .date {
