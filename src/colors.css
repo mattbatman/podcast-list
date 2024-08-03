@@ -3,13 +3,15 @@
   --tucker-carlson: #b91414;
   --the-art-of-manliness-podcast: #901f00;
   --the-joe-rogan-experience: #ef5e22;
-  --tin-foil-hat-with-sam-tripoli: #000000;
+  --tin-foil-hat-with-sam-tripoli: #333333;
   --the-bob-murphy-show: #e336d8;
   --pbd-podcast: #ea2127;
   --rfk-jr-podcast: #2b2c78;
   --the-martyr-made-podcast: rgb(196, 52, 50);
   --jocko-podcast: #55d737;
   --candace: #f8d2f6;
+  --part-of-the-problem: #000000;
+  --the-dangerous-history-podcast: #c4ac0f;
 }
 
 .PodcastCard {
@@ -167,5 +169,33 @@ button.candace {
 
 button.selected.candace {
   background-color: var(--candace);
+  color: #fff;
+}
+
+.part-of-the-problem.PodcastCard {
+  background-color: var(--part-of-the-problem);
+}
+
+button.part-of-the-problem {
+  color: var(--part-of-the-problem);
+  border: 2px solid var(--part-of-the-problem);
+}
+
+button.selected.part-of-the-problem {
+  background-color: var(--part-of-the-problem);
+  color: #fff;
+}
+
+.the-dangerous-history-podcast.PodcastCard {
+  background-color: var(--the-dangerous-history-podcast);
+}
+
+button.the-dangerous-history-podcast {
+  color: var(--the-dangerous-history-podcast);
+  border: 2px solid var(--the-dangerous-history-podcast);
+}
+
+button.selected.the-dangerous-history-podcast {
+  background-color: var(--the-dangerous-history-podcast);
   color: #fff;
 }
