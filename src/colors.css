@@ -15,6 +15,7 @@
   --what-bitcoin-did: #ff0569;
   --the-martyrmade-podcast: rgb(196, 52, 50);
   --the-duncan-trussell-family-hour: rgb(62, 8, 109);
+  --aubrey-marcus-podcast: rgb(46, 153, 107);
 }
 
 .PodcastCard {
@@ -242,5 +243,19 @@ button.the-duncan-trussell-family-hour {
 
 button.selected.the-duncan-trussell-family-hour {
   background-color: var(--the-duncan-trussell-family-hour);
+  color: #fff;
+}
+
+.aubrey-marcus-podcast.PodcastCard {
+  background-color: var(--aubrey-marcus-podcast);
+}
+
+button.aubrey-marcus-podcast {
+  color: var(--aubrey-marcus-podcast);
+  border: 2px solid var(--aubrey-marcus-podcast);
+}
+
+button.selected.aubrey-marcus-podcast {
+  background-color: var(--aubrey-marcus-podcast);
   color: #fff;
 }
