@@ -16,6 +16,9 @@
   --the-martyrmade-podcast: rgb(196, 52, 50);
   --the-duncan-trussell-family-hour: rgb(62, 8, 109);
   --aubrey-marcus-podcast: rgb(46, 153, 107);
+  --the-pete-quinones-show: rgb(102, 102, 102);
+  --the-mark-titus-show: #ba0c2f;
+  --the-vivek-show: #0d223f;
 }
 
 .PodcastCard {
@@ -257,5 +260,47 @@ button.aubrey-marcus-podcast {
 
 button.selected.aubrey-marcus-podcast {
   background-color: var(--aubrey-marcus-podcast);
+  color: #fff;
+}
+
+.the-pete-quinones-show.PodcastCard {
+  background-color: var(--the-pete-quinones-show);
+}
+
+button.the-pete-quinones-show {
+  color: var(--the-pete-quinones-show);
+  border: 2px solid var(--the-pete-quinones-show);
+}
+
+button.selected.the-pete-quinones-show {
+  background-color: var(--the-pete-quinones-show);
+  color: #fff;
+}
+
+.the-mark-titus-show.PodcastCard {
+  background-color: var(--the-mark-titus-show);
+}
+
+button.the-mark-titus-show {
+  color: var(--the-mark-titus-show);
+  border: 2px solid var(--the-mark-titus-show);
+}
+
+button.selected.the-mark-titus-show {
+  background-color: var(--the-mark-titus-show);
+  color: #fff;
+}
+
+.the-vivek-show.PodcastCard {
+  background-color: var(--the-vivek-show);
+}
+
+button.the-vivek-show {
+  color: var(--the-vivek-show);
+  border: 2px solid var(--the-vivek-show);
+}
+
+button.selected.the-vivek-show {
+  background-color: var(--the-vivek-show);
   color: #fff;
 }
