@@ -12,6 +12,7 @@
   --candace: #f8d2f6;
   --part-of-the-problem: #000000;
   --the-dangerous-history-podcast: #c4ac0f;
+  --what-bitcoin-did: #ff0569;
 }
 
 .PodcastCard {
@@ -197,5 +198,19 @@ button.the-dangerous-history-podcast {
 
 button.selected.the-dangerous-history-podcast {
   background-color: var(--the-dangerous-history-podcast);
+  color: #fff;
+}
+
+.what-bitcoin-did.PodcastCard {
+  background-color: var(--what-bitcoin-did);
+}
+
+button.what-bitcoin-did {
+  color: var(--what-bitcoin-did);
+  border: 2px solid var(--what-bitcoin-did);
+}
+
+button.selected.what-bitcoin-did {
+  background-color: var(--what-bitcoin-did);
   color: #fff;
 }
