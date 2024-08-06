@@ -14,6 +14,7 @@
   --the-dangerous-history-podcast: #c4ac0f;
   --what-bitcoin-did: #ff0569;
   --the-martyrmade-podcast: rgb(196, 52, 50);
+  --the-duncan-trussell-family-hour: rgb(62, 8, 109);
 }
 
 .PodcastCard {
@@ -227,5 +228,19 @@ button.the-martyrmade-podcast {
 
 button.selected.the-martyrmade-podcast {
   background-color: var(--the-martyrmade-podcast);
+  color: #fff;
+}
+
+.the-duncan-trussell-family-hour.PodcastCard {
+  background-color: var(--the-duncan-trussell-family-hour);
+}
+
+button.the-duncan-trussell-family-hour {
+  color: var(--the-duncan-trussell-family-hour);
+  border: 2px solid var(--the-duncan-trussell-family-hour);
+}
+
+button.selected.the-duncan-trussell-family-hour {
+  background-color: var(--the-duncan-trussell-family-hour);
   color: #fff;
 }
