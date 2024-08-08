@@ -20,6 +20,7 @@
   --the-mark-titus-show: #ba0c2f;
   --the-vivek-show: #0d223f;
   --modern-wisdom: rgb(42, 197, 197);
+  --your-welcome-with-michael-malice: rgb(186, 42, 42);
 }
 
 .PodcastCard {
@@ -317,5 +318,19 @@ button.modern-wisdom {
 
 button.selected.modern-wisdom {
   background-color: var(--modern-wisdom);
+  color: #fff;
+}
+
+.your-welcome-with-michael-malice.PodcastCard {
+  background-color: var(--your-welcome-with-michael-malice);
+}
+
+button.your-welcome-with-michael-malice {
+  color: var(--your-welcome-with-michael-malice);
+  border: 2px solid var(--your-welcome-with-michael-malice);
+}
+
+button.selected.your-welcome-with-michael-malice {
+  background-color: var(--your-welcome-with-michael-malice);
   color: #fff;
 }
