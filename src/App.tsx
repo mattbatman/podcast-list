@@ -62,6 +62,9 @@ function App() {
         handleShowClick={addOrRemoveOnClick}
       />
       <PodcastList podcasts={episodes} />
+      <footer>
+        Made in Indiana by <a href="https://mattbatman.com">Matt Batman</a>.
+      </footer>
     </div>
   );
 }

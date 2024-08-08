@@ -31,6 +31,18 @@ code {
   margin-left: auto;
 }
 
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+footer a,
+footer a:visited,
+footer a:active {
+  color: var(--blue);
+}
+
 /* Undo List Styling */
 ul {
   list-style-type: none;
