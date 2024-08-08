@@ -19,6 +19,7 @@
   --the-pete-quinones-show: rgb(102, 102, 102);
   --the-mark-titus-show: #ba0c2f;
   --the-vivek-show: #0d223f;
+  --modern-wisdom: rgb(42, 197, 197);
 }
 
 .PodcastCard {
@@ -302,5 +303,19 @@ button.the-vivek-show {
 
 button.selected.the-vivek-show {
   background-color: var(--the-vivek-show);
+  color: #fff;
+}
+
+.modern-wisdom.PodcastCard {
+  background-color: var(--modern-wisdom);
+}
+
+button.modern-wisdom {
+  color: var(--modern-wisdom);
+  border: 2px solid var(--modern-wisdom);
+}
+
+button.selected.modern-wisdom {
+  background-color: var(--modern-wisdom);
   color: #fff;
 }
