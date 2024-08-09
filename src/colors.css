@@ -22,6 +22,7 @@
   --modern-wisdom: rgb(42, 197, 197);
   --your-welcome-with-michael-malice: rgb(186, 42, 42);
   --mike-force: #3b3a36;
+  --the-glenn-beck-program: rgb(183, 155, 80);
 }
 
 .PodcastCard {
@@ -347,5 +348,19 @@ button.mike-force {
 
 button.selected.mike-force {
   background-color: var(--mike-force);
+  color: #fff;
+}
+
+.the-glenn-beck-program.PodcastCard {
+  background-color: var(--the-glenn-beck-program);
+}
+
+button.the-glenn-beck-program {
+  color: var(--the-glenn-beck-program);
+  border: 2px solid var(--the-glenn-beck-program);
+}
+
+button.selected.the-glenn-beck-program {
+  background-color: var(--the-glenn-beck-program);
   color: #fff;
 }
