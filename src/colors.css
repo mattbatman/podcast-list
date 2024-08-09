@@ -21,6 +21,7 @@
   --the-vivek-show: #0d223f;
   --modern-wisdom: rgb(42, 197, 197);
   --your-welcome-with-michael-malice: rgb(186, 42, 42);
+  --mike-force: #3b3a36;
 }
 
 .PodcastCard {
@@ -332,5 +333,19 @@ button.your-welcome-with-michael-malice {
 
 button.selected.your-welcome-with-michael-malice {
   background-color: var(--your-welcome-with-michael-malice);
+  color: #fff;
+}
+
+.mike-force.PodcastCard {
+  background-color: var(--mike-force);
+}
+
+button.mike-force {
+  color: var(--mike-force);
+  border: 2px solid var(--mike-force);
+}
+
+button.selected.mike-force {
+  background-color: var(--mike-force);
   color: #fff;
 }
