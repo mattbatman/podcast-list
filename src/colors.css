@@ -23,6 +23,7 @@
   --your-welcome-with-michael-malice: rgb(186, 42, 42);
   --mike-force: #3b3a36;
   --the-glenn-beck-program: rgb(183, 155, 80);
+  --lex-fridman-podcast: rgba(18, 18, 18, 0.75);
 }
 
 .PodcastCard {
@@ -362,5 +363,19 @@ button.the-glenn-beck-program {
 
 button.selected.the-glenn-beck-program {
   background-color: var(--the-glenn-beck-program);
+  color: #fff;
+}
+
+.lex-fridman-podcast.PodcastCard {
+  background-color: var(--lex-fridman-podcast);
+}
+
+button.lex-fridman-podcast {
+  color: var(--lex-fridman-podcast);
+  border: 2px solid var(--lex-fridman-podcast);
+}
+
+button.selected.lex-fridman-podcast {
+  background-color: var(--lex-fridman-podcast);
   color: #fff;
 }
