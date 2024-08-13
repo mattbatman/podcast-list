@@ -24,6 +24,7 @@
   --mike-force: #3b3a36;
   --the-glenn-beck-program: rgb(183, 155, 80);
   --lex-fridman-podcast: rgba(18, 18, 18, 0.75);
+  --security-cryptography-whatever: rgb(105, 92, 255);
 }
 
 .PodcastCard {
@@ -377,5 +378,19 @@ button.lex-fridman-podcast {
 
 button.selected.lex-fridman-podcast {
   background-color: var(--lex-fridman-podcast);
+  color: #fff;
+}
+
+.security-cryptography-whatever.PodcastCard {
+  background-color: var(--security-cryptography-whatever);
+}
+
+button.security-cryptography-whatever {
+  color: var(--security-cryptography-whatever);
+  border: 2px solid var(--security-cryptography-whatever);
+}
+
+button.selected.security-cryptography-whatever {
+  background-color: var(--security-cryptography-whatever);
   color: #fff;
 }
