@@ -28,6 +28,8 @@
   --the-culture-war: #bf40bf;
   --the-danny-miranda-podcast: #232018;
   --the-hoosier-hysterics-podcast: #9a211d;
+  --huberman-lab: rgb(0, 174, 239);
+  --darknet-diaries: rgb(255, 0, 0);
 }
 
 .PodcastCard {
@@ -437,5 +439,33 @@ button.the-hoosier-hysterics-podcast {
 
 button.selected.the-hoosier-hysterics-podcast {
   background-color: var(--the-hoosier-hysterics-podcast);
+  color: #fff;
+}
+
+.huberman-lab.PodcastCard {
+  background-color: var(--huberman-lab);
+}
+
+button.huberman-lab {
+  color: var(--huberman-lab);
+  border: 2px solid var(--huberman-lab);
+}
+
+button.selected.huberman-lab {
+  background-color: var(--huberman-lab);
+  color: #fff;
+}
+
+.darknet-diaries.PodcastCard {
+  background-color: var(--darknet-diaries);
+}
+
+button.darknet-diaries {
+  color: var(--darknet-diaries);
+  border: 2px solid var(--darknet-diaries);
+}
+
+button.selected.darknet-diaries {
+  background-color: var(--darknet-diaries);
   color: #fff;
 }
