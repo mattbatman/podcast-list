@@ -25,6 +25,9 @@
   --the-glenn-beck-program: rgb(183, 155, 80);
   --lex-fridman-podcast: rgba(18, 18, 18, 0.75);
   --security-cryptography-whatever: rgb(105, 92, 255);
+  --the-culture-war: #bf40bf;
+  --the-danny-miranda-podcast: #232018;
+  --the-hoosier-hysterics-podcast: #9a211d;
 }
 
 .PodcastCard {
@@ -392,5 +395,47 @@ button.security-cryptography-whatever {
 
 button.selected.security-cryptography-whatever {
   background-color: var(--security-cryptography-whatever);
+  color: #fff;
+}
+
+.the-culture-war.PodcastCard {
+  background-color: var(--the-culture-war);
+}
+
+button.the-culture-war {
+  color: var(--the-culture-war);
+  border: 2px solid var(--the-culture-war);
+}
+
+button.selected.the-culture-war {
+  background-color: var(--the-culture-war);
+  color: #fff;
+}
+
+.the-danny-miranda-podcast.PodcastCard {
+  background-color: var(--the-danny-miranda-podcast);
+}
+
+button.the-danny-miranda-podcast {
+  color: var(--the-danny-miranda-podcast);
+  border: 2px solid var(--the-danny-miranda-podcast);
+}
+
+button.selected.the-danny-miranda-podcast {
+  background-color: var(--the-danny-miranda-podcast);
+  color: #fff;
+}
+
+.the-hoosier-hysterics-podcast.PodcastCard {
+  background-color: var(--the-hoosier-hysterics-podcast);
+}
+
+button.the-hoosier-hysterics-podcast {
+  color: var(--the-hoosier-hysterics-podcast);
+  border: 2px solid var(--the-hoosier-hysterics-podcast);
+}
+
+button.selected.the-hoosier-hysterics-podcast {
+  background-color: var(--the-hoosier-hysterics-podcast);
   color: #fff;
 }
