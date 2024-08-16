@@ -30,6 +30,7 @@
   --the-hoosier-hysterics-podcast: #9a211d;
   --huberman-lab: rgb(0, 174, 239);
   --darknet-diaries: rgb(255, 0, 0);
+  --the-reason-interview-with-nick-gillespie: rgb(243, 107, 52);
 }
 
 .PodcastCard {
@@ -467,5 +468,19 @@ button.darknet-diaries {
 
 button.selected.darknet-diaries {
   background-color: var(--darknet-diaries);
+  color: #fff;
+}
+
+.the-reason-interview-with-nick-gillespie.PodcastCard {
+  background-color: var(--the-reason-interview-with-nick-gillespie);
+}
+
+button.the-reason-interview-with-nick-gillespie {
+  color: var(--the-reason-interview-with-nick-gillespie);
+  border: 2px solid var(--the-reason-interview-with-nick-gillespie);
+}
+
+button.selected.the-reason-interview-with-nick-gillespie {
+  background-color: var(--the-reason-interview-with-nick-gillespie);
   color: #fff;
 }
