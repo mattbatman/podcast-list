@@ -33,6 +33,7 @@
   --the-reason-interview-with-nick-gillespie: rgb(243, 107, 52);
   --history-conspiracy-podcast: #eb1b4f;
   --training-think-tank: rgb(227, 34, 39);
+  --informed-pregnancy-podcast: rgb(151, 218, 247);
 }
 
 .PodcastCard {
@@ -512,5 +513,19 @@ button.training-think-tank {
 
 button.selected.training-think-tank {
   background-color: var(--training-think-tank);
+  color: #fff;
+}
+
+.informed-pregnancy-podcast.PodcastCard {
+  background-color: var(--informed-pregnancy-podcast);
+}
+
+button.informed-pregnancy-podcast {
+  color: var(--informed-pregnancy-podcast);
+  border: 2px solid var(--informed-pregnancy-podcast);
+}
+
+button.selected.informed-pregnancy-podcast {
+  background-color: var(--informed-pregnancy-podcast);
   color: #fff;
 }
