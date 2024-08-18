@@ -32,6 +32,7 @@
   --darknet-diaries: rgb(255, 0, 0);
   --the-reason-interview-with-nick-gillespie: rgb(243, 107, 52);
   --history-conspiracy-podcast: #eb1b4f;
+  --training-think-tank: rgb(227, 34, 39);
 }
 
 .PodcastCard {
@@ -497,5 +498,19 @@ button.history-conspiracy-podcast {
 
 button.selected.history-conspiracy-podcast {
   background-color: var(--history-conspiracy-podcast);
+  color: #fff;
+}
+
+.training-think-tank.PodcastCard {
+  background-color: var(--training-think-tank);
+}
+
+button.training-think-tank {
+  color: var(--training-think-tank);
+  border: 2px solid var(--training-think-tank);
+}
+
+button.selected.training-think-tank {
+  background-color: var(--training-think-tank);
   color: #fff;
 }
