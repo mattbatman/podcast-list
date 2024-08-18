@@ -34,6 +34,7 @@
   --history-conspiracy-podcast: #eb1b4f;
   --training-think-tank: rgb(227, 34, 39);
   --informed-pregnancy-podcast: rgb(151, 218, 247);
+  --react-podcast: rgb(239, 232, 32);
 }
 
 .PodcastCard {
@@ -527,5 +528,19 @@ button.informed-pregnancy-podcast {
 
 button.selected.informed-pregnancy-podcast {
   background-color: var(--informed-pregnancy-podcast);
+  color: #fff;
+}
+
+.react-podcast.PodcastCard {
+  background-color: var(--react-podcast);
+}
+
+button.react-podcast {
+  color: var(--react-podcast);
+  border: 2px solid var(--react-podcast);
+}
+
+button.selected.react-podcast {
+  background-color: var(--react-podcast);
   color: #fff;
 }
