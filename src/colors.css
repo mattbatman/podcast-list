@@ -35,6 +35,10 @@
   --training-think-tank: rgb(227, 34, 39);
   --informed-pregnancy-podcast: rgb(151, 218, 247);
   --react-podcast: rgb(239, 232, 32);
+  --wide-awake-podcast: #c8d600;
+  --elixir-wizards: #319b90;
+  --epic-react-podcast: rgb(34, 95, 235);
+  --the-tim-dillon-show: #fc5c00;
 }
 
 .PodcastCard {
@@ -542,5 +546,61 @@ button.react-podcast {
 
 button.selected.react-podcast {
   background-color: var(--react-podcast);
+  color: #fff;
+}
+
+.wide-awake-podcast.PodcastCard {
+  background-color: var(--wide-awake-podcast);
+}
+
+button.wide-awake-podcast {
+  color: var(--wide-awake-podcast);
+  border: 2px solid var(--wide-awake-podcast);
+}
+
+button.selected.wide-awake-podcast {
+  background-color: var(--wide-awake-podcast);
+  color: #fff;
+}
+
+.elixir-wizards.PodcastCard {
+  background-color: var(--elixir-wizards);
+}
+
+button.elixir-wizards {
+  color: var(--elixir-wizards);
+  border: 2px solid var(--elixir-wizards);
+}
+
+button.selected.elixir-wizards {
+  background-color: var(--elixir-wizards);
+  color: #fff;
+}
+
+.epic-react-podcast.PodcastCard {
+  background-color: var(--epic-react-podcast);
+}
+
+button.epic-react-podcast {
+  color: var(--epic-react-podcast);
+  border: 2px solid var(--epic-react-podcast);
+}
+
+button.selected.epic-react-podcast {
+  background-color: var(--epic-react-podcast);
+  color: #fff;
+}
+
+.the-tim-dillon-show.PodcastCard {
+  background-color: var(--the-tim-dillon-show);
+}
+
+button.the-tim-dillon-show {
+  color: var(--the-tim-dillon-show);
+  border: 2px solid var(--the-tim-dillon-show);
+}
+
+button.selected.the-tim-dillon-show {
+  background-color: var(--the-tim-dillon-show);
   color: #fff;
 }
