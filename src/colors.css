@@ -39,6 +39,7 @@
   --elixir-wizards: #319b90;
   --epic-react-podcast: rgb(34, 95, 235);
   --the-tim-dillon-show: #fc5c00;
+  --american-contingency: #b8343d;
 }
 
 .PodcastCard {
@@ -602,5 +603,19 @@ button.the-tim-dillon-show {
 
 button.selected.the-tim-dillon-show {
   background-color: var(--the-tim-dillon-show);
+  color: #fff;
+}
+
+.american-contingency.PodcastCard {
+  background-color: var(--american-contingency);
+}
+
+button.american-contingency {
+  color: var(--american-contingency);
+  border: 2px solid var(--american-contingency);
+}
+
+button.selected.american-contingency {
+  background-color: var(--american-contingency);
   color: #fff;
 }
