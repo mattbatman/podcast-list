@@ -40,6 +40,7 @@
   --epic-react-podcast: rgb(34, 95, 235);
   --the-tim-dillon-show: #fc5c00;
   --american-contingency: #b8343d;
+  --the-healthy-rebellion-radio: #f35f41;
 }
 
 .PodcastCard {
@@ -617,5 +618,19 @@ button.american-contingency {
 
 button.selected.american-contingency {
   background-color: var(--american-contingency);
+  color: #fff;
+}
+
+.the-healthy-rebellion-radio.PodcastCard {
+  background-color: var(--the-healthy-rebellion-radio);
+}
+
+button.the-healthy-rebellion-radio {
+  color: var(--the-healthy-rebellion-radio);
+  border: 2px solid var(--the-healthy-rebellion-radio);
+}
+
+button.selected.the-healthy-rebellion-radio {
+  background-color: var(--the-healthy-rebellion-radio);
   color: #fff;
 }
